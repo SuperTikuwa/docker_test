@@ -12,8 +12,6 @@ services:
             MYSQL_PASSWORD: hogehoge
         ports:
           - 3306:3306
-        networks:
-            - vol1_network
         
 
 # networks:
