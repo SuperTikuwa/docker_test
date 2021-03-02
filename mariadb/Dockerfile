@@ -1,4 +1,4 @@
-FROM mysql
+FROM mariadb
 
 ADD ./my.cnf /etc/mysql/conf.d/my.cnf
 ADD ./hosts /etc/hosts
